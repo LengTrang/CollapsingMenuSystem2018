@@ -19,6 +19,8 @@
 		C16630B221BB81B2001881A3 /* SwiftCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16630B121BB81B2001881A3 /* SwiftCollectionCell.swift */; };
 		C16630B421BB81D8001881A3 /* SwiftCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16630B321BB81D8001881A3 /* SwiftCollectionReusableView.swift */; };
 		C16630B621BB88D5001881A3 /* CategoriesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16630B521BB88D5001881A3 /* CategoriesStruct.swift */; };
+		C1DF11BE21BCD3550091BCA5 /* SwiftTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF11BD21BCD3550091BCA5 /* SwiftTableView.swift */; };
+		C1DF11C021BCD3730091BCA5 /* SwiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF11BF21BCD3730091BCA5 /* SwiftTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		C16630B121BB81B2001881A3 /* SwiftCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCollectionCell.swift; sourceTree = "<group>"; };
 		C16630B321BB81D8001881A3 /* SwiftCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCollectionReusableView.swift; sourceTree = "<group>"; };
 		C16630B521BB88D5001881A3 /* CategoriesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesStruct.swift; sourceTree = "<group>"; };
+		C1DF11BD21BCD3550091BCA5 /* SwiftTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTableView.swift; sourceTree = "<group>"; };
+		C1DF11BF21BCD3730091BCA5 /* SwiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,13 +143,31 @@
 		C16630A821BB6E98001881A3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C1DF11BC21BCD2E10091BCA5 /* SwiftTableView */,
+				C1DF11BB21BCD2C60091BCA5 /* SwiftCollection */,
 				C16630AD21BB7C43001881A3 /* MainMenuViewController.swift */,
-				C16630AF21BB7C8D001881A3 /* SwiftCollection.swift */,
-				C16630B121BB81B2001881A3 /* SwiftCollectionCell.swift */,
-				C16630B321BB81D8001881A3 /* SwiftCollectionReusableView.swift */,
 				C16630B521BB88D5001881A3 /* CategoriesStruct.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1DF11BB21BCD2C60091BCA5 /* SwiftCollection */ = {
+			isa = PBXGroup;
+			children = (
+				C16630AF21BB7C8D001881A3 /* SwiftCollection.swift */,
+				C16630B121BB81B2001881A3 /* SwiftCollectionCell.swift */,
+				C16630B321BB81D8001881A3 /* SwiftCollectionReusableView.swift */,
+			);
+			path = SwiftCollection;
+			sourceTree = "<group>";
+		};
+		C1DF11BC21BCD2E10091BCA5 /* SwiftTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF11BD21BCD3550091BCA5 /* SwiftTableView.swift */,
+				C1DF11BF21BCD3730091BCA5 /* SwiftTableViewCell.swift */,
+			);
+			path = SwiftTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16630AE21BB7C43001881A3 /* MainMenuViewController.swift in Sources */,
+				C1DF11C021BCD3730091BCA5 /* SwiftTableViewCell.swift in Sources */,
 				C166307E21BB6E44001881A3 /* CollapsingMenu2018.xcdatamodeld in Sources */,
 				C16630B621BB88D5001881A3 /* CategoriesStruct.swift in Sources */,
 				C16630B021BB7C8D001881A3 /* SwiftCollection.swift in Sources */,
+				C1DF11BE21BCD3550091BCA5 /* SwiftTableView.swift in Sources */,
 				C16630B221BB81B2001881A3 /* SwiftCollectionCell.swift in Sources */,
 				C166307621BB6E44001881A3 /* AppDelegate.swift in Sources */,
 				C16630B421BB81D8001881A3 /* SwiftCollectionReusableView.swift in Sources */,
